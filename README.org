@@ -1,0 +1,10 @@
+* umux
+  umux is a micro-sized tmux session manager
+** Requirements
+   - ~tmux~
+** Installation
+   - put ~umux~ onto your path
+** Usage
+   - ~umux~ will attach to a session called work, or create it if it doesn't exist
+   - session will open a vertical split with your ~$SHELL~
+   - ~umux kill~ will kill the session
